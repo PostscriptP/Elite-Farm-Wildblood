@@ -1,0 +1,113 @@
+<HBProfile>
+///////////////////////////////////////////////////
+//                                               //
+// Profile written by PostscriptP                //
+// Copyright and all other Rights reserved       //
+// Use only allowed if purchased through Store   //
+///////////////////////////////////////////////////
+<Name>Wildblood Farm - Direfang Alpha - Nagrand</Name>
+<MinLevel>100</MinLevel>
+   <MaxLevel>101</MaxLevel>
+   
+   
+   
+   <MinDurability>0.4</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+    
+   <MailGrey>false</MailGrey>
+   <MailWhite>false</MailWhite>
+   <MailGreen>false</MailGreen>
+   <MailBlue>false</MailBlue>
+   <MailPurple>false</MailPurple>
+   
+   <SellGrey>true</SellGrey>
+   <SellWhite>true</SellWhite>
+   <SellGreen>true</SellGreen>
+   <SellBlue>false</SellBlue>
+   <SellPurple>false</SellPurple>
+   
+   <TargetElites>true</TargetElites>
+   
+   
+   <AvoidMobs>
+   </AvoidMobs>
+   
+   <Blackspots>
+   </Blackspots>
+   
+   
+   <Mailboxes>
+   </Mailboxes>
+   
+   
+   <Vendors>      
+   </Vendors>
+   
+   
+   <QuestOrder>
+		
+		
+		
+		
+		<CustomBehavior File="RunCode" Code="Logging.Write(System.Windows.Media.Colors.DeepSkyBlue, &quot;[PostscriptP]: Going to Nagrand.&quot;);" />
+		<RunTo X="3474.414" Y="6576.024" Z="8.1422" />
+
+		<While Condition = "true">      <CustomBehavior File="CombatUseItemOnV2" ItemId="115010" MobId="86932"
+          UseWhenMobHasHealthPercent="40" MaxRangeToUseItem="5" UseItemStrategy="UseItemOncePerTargetDontDefend"
+          RecallPetAtMobPercentHealth="50">
+		  
+		  <HuntingGrounds WaypointVisitStrategy="Random" >
+<Hotspot X="3474.414" Y="6576.024" Z="8.1422" />
+<Hotspot X="3514.956" Y="6571.823" Z="6.570163" />
+<Hotspot X="3549.955" Y="6552.167" Z="3.736082" />
+<Hotspot X="3577.551" Y="6522.049" Z="5.281224" />
+<Hotspot X="3617.811" Y="6524.523" Z="4.94368" />
+<Hotspot X="3648.606" Y="6550.103" Z="5.191074" />
+<Hotspot X="3674.586" Y="6580.904" Z="5.753985" />
+<Hotspot X="3694.337" Y="6615.951" Z="8.079765" />
+<Hotspot X="3709.167" Y="6654.125" Z="10.25706" />
+<Hotspot X="3741.453" Y="6679.768" Z="9.54985" />
+<Hotspot X="3739.566" Y="6719.963" Z="10.93686" />
+<Hotspot X="3759.402" Y="6755.631" Z="7.12287" />
+<Hotspot X="3768.023" Y="6795.686" Z="8.381574" />
+<Hotspot X="3758.823" Y="6834.823" Z="13.63619" />
+<Hotspot X="3731.187" Y="6863.805" Z="17.26818" />
+<Hotspot X="3703.869" Y="6893.378" Z="10.1482" />
+<Hotspot X="3702.359" Y="6934.159" Z="9.15031" />
+<Hotspot X="3715.349" Y="6972.969" Z="7.222437" />
+<Hotspot X="3745.035" Y="7002.156" Z="5.941516" />
+<Hotspot X="3775.999" Y="7027.735" Z="4.401777" />
+<Hotspot X="3786.982" Y="7066.603" Z="7.629063" />
+<Hotspot X="3761.255" Y="7098.983" Z="8.504565" />
+<Hotspot X="3725.24" Y="7116.265" Z="5.736754" />
+<Hotspot X="3685.758" Y="7126.358" Z="6.470559" />
+<Hotspot X="3645.209" Y="7124.428" Z="4.530342" />
+<Hotspot X="3606.103" Y="7116.056" Z="5.416973" />
+<Hotspot X="3588.437" Y="7079.478" Z="4.818724" />
+<Hotspot X="3587.643" Y="7038.903" Z="6.648928" />
+<Hotspot X="3622.302" Y="7019.312" Z="1.967195" />
+<Hotspot X="3654.613" Y="6993.717" Z="5.733615" />
+<Hotspot X="3684.511" Y="6965.479" Z="3.771353" />
+<Hotspot X="3693.936" Y="6926.746" Z="8.213929" />
+<Hotspot X="3705.445" Y="6888.619" Z="12.23547" />
+<Hotspot X="3727.833" Y="6854.032" Z="11.09738" />
+<Hotspot X="3744.884" Y="6817.658" Z="10.83831" />
+<Hotspot X="3759.616" Y="6780.438" Z="6.997343" />
+<Hotspot X="3753.563" Y="6740.237" Z="11.25001" />
+<Hotspot X="3735.528" Y="6703.973" Z="10.84029" />
+<Hotspot X="3718.127" Y="6667.35" Z="8.602083" />
+<Hotspot X="3695.793" Y="6633.767" Z="8.604201" />
+<Hotspot X="3672.442" Y="6600.374" Z="6.28909" />
+<Hotspot X="3632.117" Y="6598.033" Z="4.010007" />
+<Hotspot X="3590.627" Y="6596.994" Z="4.984784" />
+<Hotspot X="3552.678" Y="6610.107" Z="2.652974" />
+<Hotspot X="3513.205" Y="6620.631" Z="3.251467" />
+<Hotspot X="3480.454" Y="6597.489" Z="7.201643" />
+<Hotspot X="3446.25" Y="6576.862" Z="13.11475" />
+</HuntingGrounds>
+		</CustomBehavior>
+		</While>
+		
+		<Checkpoint Level="603.0" />
+		</QuestOrder>
+</HBProfile>
