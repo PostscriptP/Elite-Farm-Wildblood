@@ -1,33 +1,13 @@
 <HBProfile>
-   <!--
-      PROFILE EXPECTATIONS:
-         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
-                ( ) Gatherbuddy2
-                ( ) Grinding / Mixed
-                (*) Questing
-                ( ) PvP
+///////////////////////////////////////////////////
+//                                               //
+// Profile written by PostscriptP                //
+// Copyright and all other Rights reserved       //
+// Use only allowed if purchased through Store   //
+///////////////////////////////////////////////////
    
-         * This profile is appropriate for (check all that apply):
-                [X] Alliance   [ ] Achievement
-                [ ] Horde      [ ] Farming
-                               [X] Leveling
-                               [ ] PvP
-                               [X] Questing
-                               [ ] Reputation
-                               [ ] Seasonal
    
-         * The profile grammar for the Levelbot (Questing & Grinding) can
-           be found at this Wiki location:
-               :Category:Honorbuddy:Levelbot:Grammar 
-   
-         * An explanation of <ForceMail> and <ProtectedItems> usage is here.
-           DO NOT INCLUDE a <ForceMail> element in a profile!
-           DO NOT INCLUDE a <ProtectedItems> element in a profile, unless it
-           is being used to protect items needed for a quest.
-           You can find more information in the Wiki here:
-               Honorbuddy:About ForceMail and ProtectedItems 
-    -->
-   <Name>Wildblood Farm - Nagrand</Name>
+   <Name>Wildblood Farm - Wetland Trampler - Nagrand</Name>
    <MinLevel>100</MinLevel>
    <MaxLevel>101</MaxLevel>
    
