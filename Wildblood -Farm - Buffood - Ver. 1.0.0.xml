@@ -1,0 +1,157 @@
+<HBProfile>
+   <!--
+      PROFILE EXPECTATIONS:
+         * When using this profile, be certain to set the HonorBuddy bot to (select only one):
+                ( ) Gatherbuddy2
+                ( ) Grinding / Mixed
+                (*) Questing
+                ( ) PvP
+   
+         * This profile is appropriate for (check all that apply):
+                [X] Alliance   [ ] Achievement
+                [ ] Horde      [ ] Farming
+                               [X] Leveling
+                               [ ] PvP
+                               [X] Questing
+                               [ ] Reputation
+                               [ ] Seasonal
+   
+         * The profile grammar for the Levelbot (Questing & Grinding) can
+           be found at this Wiki location:
+               :Category:Honorbuddy:Levelbot:Grammar 
+   
+         * An explanation of <ForceMail> and <ProtectedItems> usage is here.
+           DO NOT INCLUDE a <ForceMail> element in a profile!
+           DO NOT INCLUDE a <ProtectedItems> element in a profile, unless it
+           is being used to protect items needed for a quest.
+           You can find more information in the Wiki here:
+               Honorbuddy:About ForceMail and ProtectedItems 
+    -->
+   <Name>Wildblood Farm - Nagrand</Name>
+   <MinLevel>100</MinLevel>
+   <MaxLevel>101</MaxLevel>
+   
+   
+   
+   <MinDurability>0.4</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+    
+   <MailGrey>false</MailGrey>
+   <MailWhite>false</MailWhite>
+   <MailGreen>false</MailGreen>
+   <MailBlue>false</MailBlue>
+   <MailPurple>false</MailPurple>
+   
+   <SellGrey>true</SellGrey>
+   <SellWhite>true</SellWhite>
+   <SellGreen>true</SellGreen>
+   <SellBlue>false</SellBlue>
+   <SellPurple>false</SellPurple>
+   
+   <TargetElites>true</TargetElites>
+   
+   
+   <AvoidMobs>
+   </AvoidMobs>
+   
+   <Blackspots>
+   </Blackspots>
+   
+   
+   <Mailboxes>
+   </Mailboxes>
+   
+   
+   <Vendors>      
+   </Vendors>
+   
+   
+   <QuestOrder>
+		
+		
+		
+		<Hotspot X="3153.567" Y="7437.882" Z="6.336748" />
+  
+ <While Condition = "true">      <CustomBehavior File="CombatUseItemOnV2" ItemId="115010" MobId="87021"
+          UseWhenMobHasHealthPercent="40" MaxRangeToUseItem="5" UseItemStrategy="UseItemOncePerTargetDontDefend"
+          RecallPetAtMobPercentHealth="50">
+		  
+		  <HuntingGrounds WaypointVisitStrategy="Random" >
+				
+					<Hotspot X="3153.567" Y="7437.882" Z="6.336748" />
+					<Hotspot X="3156.271" Y="7397.527" Z="3.854335" />
+					<Hotspot X="3166.025" Y="7358.418" Z="8.224284" />
+					<Hotspot X="3185.19" Y="7321.801" Z="8.620067" />
+					<Hotspot X="3208.636" Y="7289.133" Z="5.407142" />
+					<Hotspot X="3214.81" Y="7248.5" Z="9.155815" />
+					<Hotspot X="3205.656" Y="7209.462" Z="10.44892" />
+					<Hotspot X="3166.368" Y="7215.674" Z="3.419443" />
+					<Hotspot X="3126.385" Y="7222.534" Z="1.604919" />
+					<Hotspot X="3095.737" Y="7248.62" Z="5.273515" />
+					<Hotspot X="3076.891" Y="7285.276" Z="8.313755" />
+					<Hotspot X="3072.642" Y="7325.342" Z="7.149259" />
+					<Hotspot X="3077.838" Y="7366.322" Z="3.668394" />
+					<Hotspot X="3081.611" Y="7407.416" Z="1.492035" />
+					<Hotspot X="3057.706" Y="7440.636" Z="1.939944" />
+					<Hotspot X="3024.455" Y="7463.232" Z="5.832359" />
+					<Hotspot X="3022.821" Y="7503.646" Z="9.573721" />
+					<Hotspot X="3038.57" Y="7541.289" Z="9.713778" />
+					<Hotspot X="3078.549" Y="7539.765" Z="8.114562" />
+					<Hotspot X="3113.781" Y="7519.389" Z="5.016715" />
+					<Hotspot X="3140.751" Y="7488.59" Z="6.899588" />
+					<Hotspot X="3168.115" Y="7458.319" Z="6.108766" />
+				
+		  </HuntingGrounds>
+		</CustomBehavior>
+      
+</While>	  
+  
+       <SetGrindArea>
+           <GrindArea>          
+               <!-- Omit these elements, and allow them to default, unless there is a specific need...
+               <TargetMinLevel>100</TargetMinLevel>
+               <TargetMaxLevel>101</TargetMaxLevel>
+               <MaxDistance>30</MaxDistance>
+                -->
+               <!-- Use Factions OR MobIds, usually not both -->
+               <Factions>7 42 57</Factions>
+               <MobIds>87021</MobIds>
+               
+			   <Hotspots>
+                
+					<Hotspot X="3153.567" Y="7437.882" Z="6.336748" />
+					<Hotspot X="3156.271" Y="7397.527" Z="3.854335" />
+					<Hotspot X="3166.025" Y="7358.418" Z="8.224284" />
+					<Hotspot X="3185.19" Y="7321.801" Z="8.620067" />
+					<Hotspot X="3208.636" Y="7289.133" Z="5.407142" />
+					<Hotspot X="3214.81" Y="7248.5" Z="9.155815" />
+					<Hotspot X="3205.656" Y="7209.462" Z="10.44892" />
+					<Hotspot X="3166.368" Y="7215.674" Z="3.419443" />
+					<Hotspot X="3126.385" Y="7222.534" Z="1.604919" />
+					<Hotspot X="3095.737" Y="7248.62" Z="5.273515" />
+					<Hotspot X="3076.891" Y="7285.276" Z="8.313755" />
+					<Hotspot X="3072.642" Y="7325.342" Z="7.149259" />
+					<Hotspot X="3077.838" Y="7366.322" Z="3.668394" />
+					<Hotspot X="3081.611" Y="7407.416" Z="1.492035" />
+					<Hotspot X="3057.706" Y="7440.636" Z="1.939944" />
+					<Hotspot X="3024.455" Y="7463.232" Z="5.832359" />
+					<Hotspot X="3022.821" Y="7503.646" Z="9.573721" />
+					<Hotspot X="3038.57" Y="7541.289" Z="9.713778" />
+					<Hotspot X="3078.549" Y="7539.765" Z="8.114562" />
+					<Hotspot X="3113.781" Y="7519.389" Z="5.016715" />
+					<Hotspot X="3140.751" Y="7488.59" Z="6.899588" />
+					<Hotspot X="3168.115" Y="7458.319" Z="6.108766" />
+              
+			  </Hotspots>        
+           </GrindArea>
+		</SetGrindArea>
+		
+		<Checkpoint Level="603.0" />
+       
+   </QuestOrder>
+   
+   
+   
+  
+   
+</HBProfile>

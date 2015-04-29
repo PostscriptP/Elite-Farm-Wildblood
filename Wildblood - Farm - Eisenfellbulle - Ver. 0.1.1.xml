@@ -1,0 +1,123 @@
+<HBProfile>
+///////////////////////////////////////////////////
+//                                               //
+// Profile generated with ZapRecorder2 v1.2.0    //
+// Created by BadWolf                            //
+//                                               //
+///////////////////////////////////////////////////
+<Name>Wildblood Farm - Nagrand</Name>
+   <MinLevel>100</MinLevel>
+   <MaxLevel>101</MaxLevel>
+   
+   
+   
+   <MinDurability>0.4</MinDurability>
+   <MinFreeBagSlots>2</MinFreeBagSlots>
+    
+   <MailGrey>false</MailGrey>
+   <MailWhite>false</MailWhite>
+   <MailGreen>false</MailGreen>
+   <MailBlue>false</MailBlue>
+   <MailPurple>false</MailPurple>
+   
+   <SellGrey>true</SellGrey>
+   <SellWhite>true</SellWhite>
+   <SellGreen>true</SellGreen>
+   <SellBlue>false</SellBlue>
+   <SellPurple>false</SellPurple>
+   
+   <TargetElites>true</TargetElites>
+   
+   
+   <AvoidMobs>
+   </AvoidMobs>
+   
+   <Blackspots>
+   </Blackspots>
+   
+   
+   <Mailboxes>
+   </Mailboxes>
+   
+   
+   <Vendors>      
+   </Vendors>
+   
+   
+   <QuestOrder>
+		
+		
+		
+		
+		<CustomBehavior File="RunCode" Code="Logging.Write(System.Windows.Media.Colors.DeepSkyBlue, &quot;[PostscriptP]: Going to Nagrand.&quot;);" />
+		<RunTo X="3670.499" Y="5776.489" Z="44.73641" />
+
+		<While Condition = "true">      <CustomBehavior File="CombatUseItemOnV2" ItemId="115010" MobId="86731"
+          UseWhenMobHasHealthPercent="40" MaxRangeToUseItem="5" UseItemStrategy="UseItemOncePerTargetDontDefend"
+          RecallPetAtMobPercentHealth="50">
+		  
+		  <HuntingGrounds WaypointVisitStrategy="Random" >
+<Hotspot X="3670.499" Y="5776.489" Z="44.73641" />
+<Hotspot X="3705.489" Y="5756.656" Z="44.25906" />
+<Hotspot X="3746.475" Y="5760.102" Z="46.43971" />
+<Hotspot X="3783.117" Y="5778.989" Z="49.83969" />
+<Hotspot X="3822.627" Y="5767.031" Z="53.43017" />
+<Hotspot X="3861.689" Y="5752.721" Z="52.96304" />
+<Hotspot X="3900.755" Y="5744.018" Z="52.25416" />
+<Hotspot X="3940.726" Y="5739.313" Z="60.99676" />
+<Hotspot X="3974.391" Y="5760.904" Z="65.8873" />
+<Hotspot X="3975.199" Y="5802.061" Z="65.86476" />
+<Hotspot X="3942.09" Y="5827.083" Z="63.57846" />
+<Hotspot X="3929.825" Y="5865.823" Z="61.09622" />
+<Hotspot X="3903.495" Y="5895.041" Z="53.24129" />
+<Hotspot X="3862.612" Y="5898.236" Z="50.07825" />
+<Hotspot X="3822.564" Y="5908.902" Z="52.57453" />
+<Hotspot X="3794.604" Y="5937.431" Z="49.31102" />
+<Hotspot X="3760.757" Y="5959.835" Z="54.33138" />
+<Hotspot X="3721.505" Y="5960.579" Z="46.29526" />
+<Hotspot X="3699.426" Y="5994.676" Z="45.52668" />
+<Hotspot X="3678.619" Y="6030.414" Z="42.43711" />
+<Hotspot X="3662.079" Y="6067.533" Z="40.85848" />
+<Hotspot X="3650.968" Y="6105.822" Z="36.45134" />
+<Hotspot X="3618.664" Y="6130.119" Z="29.44285" />
+<Hotspot X="3585.467" Y="6152.326" Z="22.55864" />
+<Hotspot X="3569.089" Y="6189.562" Z="21.09577" />
+<Hotspot X="3549.841" Y="6224.877" Z="18.48599" />
+<Hotspot X="3536.255" Y="6262.369" Z="22.00918" />
+<Hotspot X="3520.345" Y="6300.553" Z="22.07532" />
+<Hotspot X="3499.742" Y="6336.592" Z="19.27603" />
+<Hotspot X="3462.702" Y="6355.21" Z="20.52103" />
+<Hotspot X="3444.24" Y="6390.734" Z="19.95201" />
+<Hotspot X="3463.187" Y="6426.071" Z="21.38286" />
+<Hotspot X="3476.25" Y="6464.923" Z="23.50199" />
+<Hotspot X="3448.073" Y="6494.8" Z="21.01283" />
+<Hotspot X="3433.63" Y="6456.915" Z="21.39833" />
+<Hotspot X="3420.496" Y="6419.121" Z="18.44997" />
+<Hotspot X="3405.049" Y="6382.176" Z="15.5225" />
+<Hotspot X="3418.928" Y="6344.579" Z="18.55047" />
+<Hotspot X="3458.189" Y="6336.42" Z="18.32356" />
+<Hotspot X="3492.266" Y="6314.582" Z="19.44646" />
+<Hotspot X="3481.863" Y="6276.141" Z="15.61651" />
+<Hotspot X="3474.142" Y="6235.241" Z="14.87818" />
+<Hotspot X="3497.947" Y="6202.138" Z="16.86146" />
+<Hotspot X="3525.579" Y="6172.329" Z="20.44755" />
+<Hotspot X="3560.434" Y="6150.755" Z="20.2743" />
+<Hotspot X="3592.911" Y="6127.259" Z="21.69433" />
+<Hotspot X="3606.731" Y="6090.742" Z="33.0863" />
+<Hotspot X="3605.026" Y="6050.684" Z="38.09013" />
+<Hotspot X="3580.003" Y="6019.934" Z="27.4149" />
+<Hotspot X="3566.843" Y="5980.793" Z="28.69146" />
+<Hotspot X="3580.116" Y="5941.879" Z="31.85755" />
+<Hotspot X="3605.692" Y="5911.009" Z="40.3731" />
+<Hotspot X="3631.556" Y="5880.422" Z="42.73811" />
+<Hotspot X="3672.944" Y="5883.806" Z="44.68778" />
+<Hotspot X="3700.199" Y="5853.785" Z="49.14644" />
+<Hotspot X="3676.972" Y="5820.85" Z="46.30803" />
+<Hotspot X="3653.07" Y="5788.852" Z="42.99588" />
+ </HuntingGrounds>
+		</CustomBehavior>
+		</While>
+		
+		<Checkpoint Level="603.0" />
+		</QuestOrder>
+</HBProfile>
